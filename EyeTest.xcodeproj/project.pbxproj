@@ -15,6 +15,9 @@
 		A5A48FD924450CB100AEF740 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A48FD724450CB100AEF740 /* LaunchScreen.storyboard */; };
 		A5A48FE424450CB100AEF740 /* EyeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A48FE324450CB100AEF740 /* EyeTestTests.swift */; };
 		A5A48FEF24450CB100AEF740 /* EyeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A48FEE24450CB100AEF740 /* EyeTestUITests.swift */; };
+		A5A490012445133000AEF740 /* AsmlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A490002445133000AEF740 /* AsmlerViewController.swift */; };
+		A5A490032445139400AEF740 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A490022445139400AEF740 /* TestViewController.swift */; };
+		A5A49007244516B000AEF740 /* Designs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A49006244516B000AEF740 /* Designs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		A5A48FEA24450CB100AEF740 /* EyeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A48FEE24450CB100AEF740 /* EyeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeTestUITests.swift; sourceTree = "<group>"; };
 		A5A48FF024450CB100AEF740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A490002445133000AEF740 /* AsmlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsmlerViewController.swift; sourceTree = "<group>"; };
+		A5A490022445139400AEF740 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		A5A49006244516B000AEF740 /* Designs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		A5A48FC024450CAD00AEF740 = {
 			isa = PBXGroup;
 			children = (
+				A5A49006244516B000AEF740 /* Designs.swift */,
 				A5A48FCB24450CAD00AEF740 /* EyeTest */,
 				A5A48FE224450CB100AEF740 /* EyeTestTests */,
 				A5A48FED24450CB100AEF740 /* EyeTestUITests */,
@@ -99,6 +106,8 @@
 		A5A48FCB24450CAD00AEF740 /* EyeTest */ = {
 			isa = PBXGroup;
 			children = (
+				A5A490022445139400AEF740 /* TestViewController.swift */,
+				A5A490002445133000AEF740 /* AsmlerViewController.swift */,
 				A5A48FCC24450CAD00AEF740 /* AppDelegate.swift */,
 				A5A48FCE24450CAD00AEF740 /* SceneDelegate.swift */,
 				A5A48FD024450CAD00AEF740 /* ViewController.swift */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5A490032445139400AEF740 /* TestViewController.swift in Sources */,
 				A5A48FD124450CAD00AEF740 /* ViewController.swift in Sources */,
 				A5A48FCD24450CAD00AEF740 /* AppDelegate.swift in Sources */,
+				A5A490012445133000AEF740 /* AsmlerViewController.swift in Sources */,
 				A5A48FCF24450CAD00AEF740 /* SceneDelegate.swift in Sources */,
+				A5A49007244516B000AEF740 /* Designs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
