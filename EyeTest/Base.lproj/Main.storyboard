@@ -18,15 +18,18 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rzj-81-mOf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="451"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Telehealth Eye Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Sb-gO-62e">
-                                        <rect key="frame" x="82" y="207.5" width="246" height="36"/>
-                                        <viewLayoutGuide key="safeArea" id="kGJ-dx-5sa"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="During Covid-19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fq2-z9-VVK">
+                                        <rect key="frame" x="101" y="237.5" width="212" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="During Covid-19" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fq2-z9-VVK">
-                                        <rect key="frame" x="101" y="237.5" width="212" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" text="Telehealth Eye Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Sb-gO-62e">
+                                        <rect key="frame" x="45" y="207" width="324" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="324" id="kve-M2-jDQ"/>
+                                        </constraints>
+                                        <viewLayoutGuide key="safeArea" id="kGJ-dx-5sa"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -34,8 +37,9 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="0Sb-gO-62e" firstAttribute="centerX" secondItem="Rzj-81-mOf" secondAttribute="centerX" id="BIf-l5-4Yz"/>
                                     <constraint firstItem="fq2-z9-VVK" firstAttribute="centerY" secondItem="Rzj-81-mOf" secondAttribute="centerY" constant="30" id="EEU-uO-her"/>
-                                    <constraint firstItem="0Sb-gO-62e" firstAttribute="leading" secondItem="Rzj-81-mOf" secondAttribute="leading" constant="82" id="jm5-Ql-1de"/>
+                                    <constraint firstItem="fq2-z9-VVK" firstAttribute="centerX" secondItem="Rzj-81-mOf" secondAttribute="centerX" id="EWu-fw-y8B"/>
                                     <constraint firstItem="fq2-z9-VVK" firstAttribute="centerX" secondItem="Rzj-81-mOf" secondAttribute="centerX" id="lG6-ae-uSn"/>
                                     <constraint firstItem="0Sb-gO-62e" firstAttribute="centerY" secondItem="Rzj-81-mOf" secondAttribute="centerY" id="op7-4G-zaz"/>
                                 </constraints>
@@ -46,7 +50,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="yHi-r2-G27" kind="show" id="Tl6-qd-eQ5"/>
+                                    <segue destination="Igh-9W-ttC" kind="show" id="jv8-cL-5qo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Olr-dP-4gB">
@@ -55,7 +59,7 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Igh-9W-ttC" kind="show" id="qhV-hE-H1Q"/>
+                                    <segue destination="yHi-r2-G27" kind="show" id="0B6-KQ-1uf"/>
                                 </connections>
                             </button>
                         </subviews>
