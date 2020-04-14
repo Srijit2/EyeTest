@@ -93,7 +93,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="95edit 2" translatesAutoresizingMaskIntoConstraints="NO" id="83i-Mk-J7z">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="95edit 3" translatesAutoresizingMaskIntoConstraints="NO" id="83i-Mk-J7z">
                                 <rect key="frame" x="0.0" y="44" width="414" height="723"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oaS-Cq-nSa">
@@ -184,7 +184,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="95edit 2" width="435" height="696"/>
+        <image name="95edit 3" width="431" height="649"/>
         <image name="ASmler edit" width="639" height="1103"/>
     </resources>
 </document>
